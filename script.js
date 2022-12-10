@@ -1,13 +1,13 @@
 function login(){
-    var  user, pass, error;
+    var  user, pass;
     
-    user = document.getElementById("usuario").value;
-    pass = document.getElementById("contrasena").value;
+    user = document.getElementById("correo").value;
+    pass = document.getElementById("password").value;
     error = document.getElementById("Contrasena o usuario equivocado").value;
 
-    if((user == "beto") && (pass == "1234")){
+    if(user == "beto" && pass == "1234"){
         
-       window.location = "miCuenta.html";
-    }{error
-}
+        window.location.href="MiCuenta.html";
+    
+    }  
 }
