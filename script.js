@@ -9,5 +9,7 @@ function login(){
         
         window.location.href="MiCuenta.html";
     
+    }else{
+        window.alert('contraseña o usuario equivocado')
     }  
 }
