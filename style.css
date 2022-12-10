@@ -1,11 +1,43 @@
 
 h1{
+    
     background-color: red;
 }
 
 
 .formulario
-{color: brown;
+{background-image: linear-gradient( to right top, red, purple);
 
 }
 
+* {margin: 0cm;
+  padding: 0cm;
+  box-sizing: border-box;
+  font-size: 'roboto', sans-serif;
+
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right top, red, purple);
+    display: block;
+}
+
+.container-form{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    transition: all .5s ease-out;
+
+
+}
+
+#lomejor{
+    width: 450cm;
+    
+}
