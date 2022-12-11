@@ -1,0 +1,15 @@
+#Menu{
+    display: inline;
+    background-color: brown;
+    background-image: linear-gradient(red, purple);
+}
+
+#PASTAS{
+display: inline;
+}
+
+
+body{
+    background-image: linear-gradient(red, purple);
+    display: inline-table;
+    }
