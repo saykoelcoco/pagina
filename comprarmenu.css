@@ -1,0 +1,7 @@
+body{
+    background-image: repeating-radial-gradient(red, blue);
+}
+
+select{inline-size: 100px;
+
+}
