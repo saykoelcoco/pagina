@@ -1,0 +1,31 @@
+<!doctype html>
+ <head>
+ <link href="comprarmenu.css" rel="stylesheet">
+ </head>
+ <body>
+     <form>
+    <div id="select"><h1>Menu</h1>
+    <input type="text" placeholder="Escriba su menu elegido" id="menuElegido"><br>
+</form>
+    <h2>Nombre y apellido</h2>
+    <form>
+        <input type="text" placeholder="Nombre y apellido" id="nombre"><br>
+        
+    </form>
+    <h3>Metodo de pago</h3>
+    <form>
+        <input type="text" id="metodoPago"> Efectivo, Transferencia, o Tarjeta
+    </form><br>
+        <h3>Monto a pagar</h3>
+        <input type="text" id="monto" placeholder="$$$$$$"><br>
+    </form>
+
+    <h4>Direccion de envio</h4>
+    <form>
+        <input type="text" placeholder="Escriba su Direccion" id="direccion" required><br>
+        
+    </form>
+    <input type="button" id="boton" onclick="confirmarPedido()" value="Confirmar pedido">
+
+    <script src="comprarmen.js"></script>
+ </body>
