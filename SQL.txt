@@ -1,12 +1,16 @@
 create databases pedidosYa
 
-create table usuario (id_usuario primary key int, nombre_usuario varchar, contraseña varchar, dirección varchar)
-create table producto (id_producto primary key int, descripcion varchar, proveedor varchar)
-create table pedido (id_factura primary key int, producto varchar, usuario varchar, cantidad int, monto int)
-create table factura (id primary key int, tipo_pago varchar)
+create table usuario (id_usuario int primary key, nombre_usuario varchar, contraseña varchar, dirección varchar)
+create table producto (id_producto int primary key, descripcion varchar, proveedor varchar)
+create table pedido (id_factura int primary key, producto varchar, usuario varchar, cantidad int, monto int)
+create table factura (id int primary key, tipo_pago varchar)
 
 
-Insert into usuario (1234, 'juana_ramirez', 123456, tucuman1990, 2234, 'diana_gonzalez', 'dianita666', 'Cochabanba1200', 3334, 'juan_osvaldo', 'jjuan88', 'cjs1900', 4444, 'lisandro_torres', 'licharacing10', 'conesa1700', 5554, 'dario_german', 'darioslipknot', 'rosario100')
+insert into usuario (1234, 'juana_ramirez', 123456, tucuman1990)
+insert into producto (3344, 'hamburguesas con chedar', Dulcenter)
+inser into pedido (4444, 'papas fritas', maurito1999, 120, 1900)
+inser into factura (2233, efectivo)
+
 
 
 
